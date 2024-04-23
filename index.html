@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirt Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>T-Shirt Product Page</h1>
+    
+    <div class="container">
+        <div class="options-section">
+            <div class="product-info">
+                <h1>Casual T Shirt</h1>
+                <h2>$15.00</h2>
+                <h4>30%off</h4>
+            </div>
+
+            <div class="color-selector">
+                color:
+                <div class="color-option" id="red" onclick="changeColor('red')"></div>
+                <div class="color-option" id="blue" onclick="changeColor('blue')"></div>
+                <div class="color-option" id="green" onclick="changeColor('green')"></div>
+            </div>
+
+            <div class="product-details">
+                <label for="size-select">Size:</label>
+                <select id="size-select">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                <br>
+                <br>
+                <label for="quantity-input">Quantity:</label>
+                <input type="number" id="quantity-input" value="1" min="1">
+            </div>
+            <button class="buy-now-button" onclick="buyNow()">Buy Now</button>
+        </div>
+
+        <div class="tshirt-section">
+            <img src="red-tshirt.jpg" alt="Red T-Shirt" class="tshirt-image" id="tshirt-image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

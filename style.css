@@ -1,0 +1,73 @@
+body{
+    background-color: lightblue;
+}
+h4{
+    color:darkgreen;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: seashell;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.options-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product-info {
+    margin-bottom: 20px;
+}
+
+.color-selector {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.color-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+.product-details {
+    margin-bottom: 20px;
+}
+.tshirt-image {
+  width:auto;
+  height:300px;
+}
+
+.buy-now-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buy-now-button:hover {
+    background-color: #0056b3;
+}
+
